@@ -3,6 +3,7 @@
 context('Actions', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/actions')
+    cy.get('.action-email').click()
   })
 
   // https://on.cypress.io/interacting-with-elements
